@@ -1,0 +1,1088 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Ubuntu';
+}
+
+/*  HEADER  */
+
+header{
+    width: 100%;
+    height: 117px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #2e948a;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);    
+}
+
+header .logo{
+    margin-left: 80px;
+}
+
+header .menu-header{
+    margin-right: 100px;
+    display: flex;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-right: 10%;
+    gap: 40px;
+}
+
+header nav a{
+    color: #fdfdfd;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*  SECTION 1  */
+
+.section1{
+    width: 100%;
+    height: 682px;
+    background: #f7f7f7;
+    display: flex;    
+    justify-content: space-between;   
+    font-family: 'Ubuntu';    
+}
+
+.section1 .texto{
+    width: 50%;    
+}
+
+.section1 .texto .texto1{    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+    font-style: normal;
+    color: #ff4081;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-top: 13%;
+}
+
+.section1 .texto .texto2{    
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #555555;
+    margin-bottom: 2%;
+    margin-left: 15%;   
+}
+
+.botao-quero-saber-mais{    
+    margin-bottom: 2%;
+    margin-left: 15%;
+    margin-top: 6%;
+    width: 45%;
+    height: 8%;
+    text-align: center;    
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 31px;
+    padding-top: 4px;    
+}
+
+.botao-quero-saber-mais a{
+    color: #FF4081;
+    text-decoration: none;
+}
+
+.section1 .imagem1{
+    width: 38%;
+    height: 58%;
+    margin-top: 7%;
+    margin-right: 15%;
+    margin-bottom: 5%;    
+}
+
+.section1 .imagem1 img{
+    width: 80%;
+    height: 450px;
+    margin-left: 20%;
+}
+
+/*  SECTION 2  */
+
+.section2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 730px;
+    background: #e5e5e5;
+}
+
+/*  SECTION 2  */ 
+/*  COLUNAS  */ 
+
+.section2 .coluna1{
+    width: 30%;
+    text-align: center;
+    margin-top: 8%;       
+}
+
+.section2 .coluna1 .imagem1{
+    width: 70%;    
+    height: 270px;
+}
+
+.section2 .coluna1 h2{
+    height: 29px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 10%;
+    margin-bottom: 5%;    
+}
+
+.section2 .coluna1 .p1{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 5%;    
+}
+
+.section2 .coluna1 .botao-comecar-agora-coluna1{
+    width: 58%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4081;    
+    border-radius: 62px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-left: 21%;   
+}
+
+.section2 .coluna1 .botao-comecar-agora-coluna1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.section2 .coluna2{
+    width: 30%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.section2 .coluna2 .imagem2{
+    width: 60%;
+    height: 270px;    
+}
+
+.section2 .coluna2 h2{
+    height: 29px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 10%;
+    margin-bottom: 5%;    
+}
+
+.section2 .coluna2 .p2{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section2 .coluna2 .botao-comecar-agora-coluna2{
+    width: 58%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4081;    
+    border-radius: 62px;
+    font-weight: 400;
+    line-height: 31px;  
+    margin-left: 21%; 
+}
+
+.section2 .coluna2 .botao-comecar-agora-coluna2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.section2 .coluna3{
+    width: 30%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.section2 .coluna3 .imagem3{
+    width: 60%;
+    height: 270px;    
+}
+
+.section2 .coluna3 h2{
+    height: 29px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 10%;
+    margin-bottom: 5%;    
+}
+
+.section2 .coluna3 .p3{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.section2 .coluna3 .botao-comecar-agora-coluna3{
+    width: 58%;
+    height: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF4081;    
+    border-radius: 62px;
+    font-weight: 400;
+    line-height: 31px;   
+    margin-left: 21%;
+}
+
+.section2 .coluna3 .botao-comecar-agora-coluna3 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*  SECTION 3  */ 
+
+.section3{
+    background:#f7f7f7;
+    width: 100%;
+    height: 701px;
+}
+
+.section3 .titulo{
+    padding-top: 5%;
+    margin-left: 7%;
+}
+
+.section3 h2{
+    width: 40%; 
+    font-size: 37px;
+    color: #009688;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;  
+    margin-bottom: 6%; 
+}
+
+.section3 .comentarios{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .comentarios .comentarios-esquerda{
+    margin-left: 7%;
+}
+
+.section3 .comentarios .comentarios-esquerda .wally{
+    display: flex;
+}
+
+.section3 .comentarios .comentarios-esquerda .wally img{
+    display: flex;
+}
+
+.section3 .comentarios .comentarios-esquerda .whoopi{
+    display: flex;
+    margin-top: 19%;
+}
+
+.section3 .comentarios .comentarios-direita{
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.section3 .comentarios .comentarios-direita .jaden{
+    display: flex;
+}
+
+.section3 .comentarios .comentarios-direita .janes{
+    display: flex;
+    margin-top: 19%;
+}
+
+.comentarios .p1{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 3%; 
+    margin-left: 5%;
+}
+
+.comentarios .p2{
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 5%;
+}
+
+/*  SECTION 4  */
+
+.section4{
+    width: 100%;
+    height: 730px;
+    background-color: #e5e5e5;
+    margin-top: 0px;
+}
+
+.section4 h2{    
+    width: 40%;
+    height: 5%;
+    font-size: 37px;
+    font-family: 'Ubuntu';
+    color: #009688;
+    text-transform: uppercase; 
+    margin-left: 9%;
+    padding-top: 91px;
+    margin-bottom:5%;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-around;
+}
+
+.posts .post1{
+    width: 22%;
+}
+
+.posts .post1 .img-vazio1{
+    width: 100%;
+    height: 193px;
+    background: #c4c4c4;
+}
+
+.posts .post2 .img-vazio2{
+    width: 319px;
+    height: 193px;
+    background: #c4c4c4;
+    margin-top: 0;
+}
+
+.posts .post3{
+    margin-right: 3%;
+}
+
+.posts .post3 .img-vazio3{
+    width: 319px;
+    height: 193px;
+    background: #c4c4c4;
+    margin-top: 0;
+}
+
+.posts h3{
+    color: #009688;
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.section4 .botao{
+    width: 20%;
+    height: 7%;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 38%;
+    margin-top: 7%;
+}
+
+.section4 .botao a{
+    font-size: 25px;
+    color: #ff4081;
+    text-decoration: none;
+}
+
+
+/*  FOOTER  */
+
+footer{
+    width: 100%;
+    height: 157px;
+    background: #419488;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+footer .logo-footer{
+    margin-left: 9%;
+}
+
+footer .logo-footer img{
+    width: 80%;
+}
+
+footer nav{
+    display: grid;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+}
+
+footer nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer .botao-footer{
+    margin-right: 5%;
+    width: 20%; 
+}
+
+footer .botao-footer .btn1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;    
+    height: 41px;
+    border: 2px solid #fff;
+    border-radius: 62px;
+    margin-bottom: 5%;
+    text-decoration: none;
+    color: #fff;    
+}
+
+footer .botao-footer .btn2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 41px;    
+    border: 2px solid #fff;
+    border-radius: 62px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*  RESPONSIVIDADE 1024PX  ****************************************************************************/
+
+@media (max-width: 1024px){
+    
+    .section1{
+        height: 500px;
+    }
+    .section1 .texto .texto1{    
+        font-size: 35px;
+        line-height: 55px;        
+        margin-left: 10%;        
+    }
+    
+    .section1 .texto .texto2{    
+        font-size: 22px;
+        line-height: 25px;        
+        margin-left: 10%;   
+    }
+    
+    .botao-quero-saber-mais{    
+        margin-left: 10%;        
+        width: 50%;
+        font-size: 20px;    
+    }
+    
+    .section1 .imagem1{
+        width: 38%;
+        height: 58%;
+        margin-top: 7%;
+        margin-right: 15%;
+        margin-bottom: 5%;    
+    }
+    
+    .section1 .imagem1 img{
+        width: 80%;
+        height: 350px;
+        margin-left: 20%;
+    }
+
+    /*  SECTION2 1024px  */
+    
+    .section2{
+        height: 580px;
+    }
+    .section2 .coluna1 .imagem1{
+        width: 70%;    
+        height: 220px;
+    }
+    
+    .section2 .coluna1 h2{
+        font-size: 20px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna1 .p1{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna1 .botao-comecar-agora-coluna1{
+        width: 50%;
+        height: 8%;
+        font-size: 15px;  
+    }
+
+    .section2 .coluna2 .imagem2{
+        width: 70%;    
+        height: 220px;
+    }
+    
+    .section2 .coluna2 h2{
+        font-size: 20px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna2 .p2{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna2 .botao-comecar-agora-coluna2{
+        width: 50%;
+        height: 8%;
+        font-size: 15px;  
+    }
+
+    .section2 .coluna3 .imagem3{
+        width: 70%;    
+        height: 220px;
+    }
+    
+    .section2 .coluna3 h2{
+        font-size: 20px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna3 .p3{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna3 .botao-comecar-agora-coluna3{
+        width: 50%;
+        height: 8%;
+        font-size: 15px;  
+    }
+
+    /*  SECTION3  1024px   */
+
+    .section3{
+        height: 580px;
+    }
+        
+    .section3 h2{
+        width: 80%; 
+        font-size: 32px;
+    }
+        
+    .comentarios .p1{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 3%; 
+        margin-left: 5%;
+    }
+    
+    .comentarios .p2{
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 5%;
+    }
+
+    /*  SECTION4  1024px   */
+
+    .section4{
+        width: 100%;
+        height: 730px;
+        background-color: #e5e5e5;
+        margin-top: 0px;
+    }
+    
+    .section4 h2{    
+        width: 80%;
+        height: 5%;
+        font-size: 32px;         
+        margin-left: 7%;
+        padding-top: 70px;
+        margin-bottom:5%;
+    }
+    
+    .posts{
+        width: 95%;
+        margin-left: 3%;
+    }
+    
+    .posts h3{
+        font-size: 24px;
+     }
+
+    .posts .post1{
+        width: 25%;
+    }
+    
+    .posts .post2{
+        width: 25%;
+    }    
+    
+    .posts .post2 .img-vazio2{
+        width: 100%;
+    }
+
+    .posts .post3{
+        width: 25%;       
+    }
+
+    .posts .post3 .img-vazio3{
+        width: 100%;
+    }
+
+    .section4 .botao{
+        width: 35%;        
+        margin-left: 33%;
+    }
+    
+    .section4 .botao a{
+        font-size: 22px;
+    }
+
+    /*  FOOTER  */
+
+    footer .botao-footer{
+        margin-right: 0%;
+        width: 35%; 
+    }   
+}
+
+/*  RESPONSIVIDADE 860PX  ****************************************************************************/
+
+@media (max-width: 860px){
+
+    header .logo img{
+        width: 80%;
+    }
+    
+    header .menu-header{       
+        font-size: 15px;
+        gap: 25px;
+    }
+
+    .section2 .coluna1 .p1{
+        font-size: 12px; 
+    }
+
+    .section2 .coluna2 .p2{
+        font-size: 12px; 
+    }
+
+    .section2 .coluna3 .p3{
+        font-size: 12px; 
+    }
+
+    .posts h3{
+        font-size: 20px;
+     }
+}
+
+/*  RESPONSIVIDADE 768PX  ****************************************************************************/
+
+@media (max-width: 768px) {
+    .section2{
+        display: block;
+        height: 1780px;
+        background: #e5e5e5;
+    }
+
+    .section2 .coluna1{
+        width: 100%;
+        padding-top: 8%;
+    }
+
+    .section2 .coluna1 .imagem1{
+        width: 50%;
+    }
+
+    .section2 .coluna1 h2{
+        font-size: 35px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna1 .p1{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna1 .botao-comecar-agora-coluna1{
+        width: 30%;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 35%; 
+        margin-bottom: 10%; 
+    }
+
+    .section2 .coluna2{
+        width: 100%;
+    }
+
+    .section2 .coluna2 .imagem2{
+        width: 50%;
+    }
+
+    .section2 .coluna2 h2{
+        font-size: 35px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna2 .p2{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna2 .botao-comecar-agora-coluna2{
+        width: 30%;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 35%;  
+        margin-bottom: 10%;
+    }
+
+    .section2 .coluna3{
+        width: 100%;
+    }
+
+    .section2 .coluna3 .imagem3{
+        width: 50%;
+    }
+
+    .section2 .coluna3 h2{
+        font-size: 35px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna3 .p3{
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna3 .botao-comecar-agora-coluna3{
+        width: 30%;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 35%;  
+        margin-bottom: 10%;
+    }
+}
+
+/*  RESPONSIVIDADE 480PX  ****************************************************************************/
+
+@media (max-width: 480px){
+
+    header .logo{
+        width: 60%;
+        margin-left: 10%;
+    }
+    
+    header .menu-header{
+        display: grid;       
+        font-size: 12px;
+        gap: 1px;
+        margin-right: 14%;
+    }
+
+    /*  SECTION1  ***************************************/
+
+    .section1{
+        width: 100%;
+        text-align: center;
+        height: 380px;
+    }
+    .section1 .texto{
+        width: 100%;    
+    }
+
+    .section1 .texto .texto1{
+        margin-left: 0;
+        font-size: 30px;
+    }
+
+    .section1 .texto .texto2{
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .botao-quero-saber-mais{
+        margin-left: 25%;
+        font-size: 20px;
+        padding-top: 0px;
+    }    
+    
+    .section1 .imagem1{
+        display: none;
+    }
+
+    /*  SECTION2  ***************************************/
+
+    .section2{
+        height: 1500px;
+    }
+
+    .section2 .coluna1{
+        width: 100%;
+        padding-top: 8%;
+        margin-top: 0;
+    }
+
+    .section2 .coluna1 h2{
+        font-size: 25px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna1 .p1{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna1 .botao-comecar-agora-coluna1{
+        width: 40%;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 30%; 
+        margin-bottom: 10%; 
+    }
+
+    .section2 .coluna2{
+        width: 100%;
+    }
+
+    .section2 .coluna2 h2{
+        font-size: 25px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna2 .p2{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna2 .botao-comecar-agora-coluna2{
+        width: 40%;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 30%; 
+        margin-bottom: 10%; 
+    }
+
+    .section2 .coluna3{
+        width: 100%;
+    }
+
+    .section2 .coluna3 h2{
+        font-size: 25px;
+        margin-top: 5%;            
+    }
+    
+    .section2 .coluna3 .p3{
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 5%;    
+    }
+    
+    .section2 .coluna3 .botao-comecar-agora-coluna3{
+        width: 40%;
+        height: 40px;
+        font-size: 15px;
+        margin-left: 30%; 
+        margin-bottom: 10%; 
+    }
+
+    /*  SECTION3  ***************************************/
+
+    .section3{
+        width: 100%;
+        height: 801px;
+    }
+    
+    .section3 .titulo{
+        padding-top: 5%;
+    }
+    
+    .section3 h2{
+        width: 100%; 
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .section3 .comentarios{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .section3 .comentarios .comentarios-esquerda .whoopi{
+        display: flex;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .section3 .comentarios .comentarios-direita .janes{
+        display: flex;
+        margin-top: 8%;
+    }
+
+    /*  SECTION4  ***************************************/
+
+    .section4{
+        width: 100%;
+        height: 980px;
+    }
+    
+    .section4 h2{    
+        width: 80%;
+        height: 5%;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .posts h3{
+        font-size: 17px;
+        font-weight: 700;
+        margin-top: 0%;
+    }
+    
+    .posts{
+        display: block;
+        margin-left: 5%;
+    }
+    
+    .posts .post1{
+        display: flex;
+        width: 85%;
+    }
+    
+    .posts .post1 .img-vazio1{
+        width: 100%;
+        height: 193px;
+        margin-bottom: 10%;
+   }
+
+   .posts .post1 .texto1{
+    display: block;
+    justify-content: center;
+    margin-left: 3%;
+    font-size: 13px;
+   }
+
+   .posts .post2{
+    display: flex;
+    width: 85%;
+    }
+
+    .posts .post2 .img-vazio2{
+        width: 100%;
+        height: 193px;
+        margin-bottom: 10%;
+        
+    }
+
+    .posts .post2 .texto2{
+    display: block;
+    justify-content: center;
+    margin-left: 3%;
+    font-size: 13px;
+    }
+
+    .posts .post3{
+        display: flex;
+        width: 85%;
+    }
+
+    .posts .post3 .img-vazio3{
+        width: 100%;
+        height: 193px;
+        margin-bottom: 10%;
+    }
+
+    .posts .post3 .texto3{
+    display: block;
+    justify-content: center;
+    margin-left: 3%;
+    font-size: 13px;
+    }
+
+    .section4 .botao{
+        width: 50%;
+        height: 5%;
+        margin-left: 25%;
+        margin-top: 7%;
+    }
+
+    .section4 .botao a{
+        font-size: 13px;
+    }
+
+
+    /*  FOOTER  */
+
+    footer{
+        width: 100%;
+        height: 87px;  
+    }
+
+    footer .logo-footer img{
+        width: 80%;
+    }
+
+    footer nav{
+        display: grid;
+        font-size: 12px;
+        line-height: 8px;
+        margin-right: 50px;
+        text-align: center;
+    }
+
+    footer .botao-footer{
+        width: 50%;
+        margin-right: 9%;
+    }
+    
+    footer .botao-footer .btn1{
+        width: 90%;
+        font-size: 8px;   
+        height: 20px;
+    }
+    
+    footer .botao-footer .btn2{
+        width: 90%;
+        font-size: 8px;
+        height: 20px;
+    }    
+}
+   

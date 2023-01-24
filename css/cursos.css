@@ -1,0 +1,326 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+    
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.header{
+    background-color: #2E948A;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	height: 117px;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.logo{
+	
+    margin-left: 40%;
+	width: 100%;
+	height: 80%;	
+    
+	
+
+}
+
+.nav-1{
+	margin-right: 5%;
+	
+}
+.nav-1 a{
+	
+    text-decoration: none;
+    color: #ffffff;
+	margin-left: 25px;
+	font-size: 21px;
+	font-weight: 700;
+	
+}
+h1{
+	color: #FF4081;
+	font-size: 50px;
+	font-weight: 700;
+	margin-left: 4.7%;
+	margin-top: 3%;
+}
+.primeiro-p{
+	font-size: 20px;
+	font-weight: 400;
+	margin-left: 4.7%;
+	margin-top: 0.5%;
+}
+.cards{
+	display: flex;
+	width: 90%;
+	height: 100%;
+	margin-left: 7%;
+	margin-top: 5%;
+	margin-right: 7%;
+	
+}
+.div-card{
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin-left: 5%;
+	
+	
+}
+#card-meio{
+	border-top: 5px solid #C4C4C4;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	border-bottom: 5px  solid #C4C4C4;
+	
+}
+#ultimo-card{
+	margin-bottom: 15%;
+}
+.cards img{
+	width: 30%;
+	height: 30%;
+}
+h2{
+	color: #FF4081;
+	font-weight: 700;
+	font-size: 35px;
+	margin-top: 2%;
+}.div-card p{
+	width: 80%;
+	margin-top: 5%;
+	font-size: 18px;
+	
+}
+
+
+.botao{
+	width: 30%;
+	height: 10%;
+	margin-top: 5%;
+	border-radius: 65px 65px;
+	border: none;
+	background-color: #419488 ;
+	color: #ffffff;
+	font-size: 20px;
+}
+.footer{
+	
+	display: flex;
+	background-color:#419488;
+	width: 100%;
+    justify-content: space-between;
+    align-items: center;
+	height: 160px;
+	box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+	
+	  
+}
+.logo-footer{
+	margin-left: 5%;
+	width: 20%;
+	height: 60%;
+	
+}
+.logo-fgooter img{
+	width: 80%;
+}
+.nav-2 {
+	
+	display: flex;
+	flex-direction: column;
+	
+	
+
+
+}
+
+.nav-2 a{
+	/*
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	*/
+	color: #fff;
+    text-decoration: none;
+    padding: 5px
+	
+}
+.botao3{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+.botao-footer{
+	
+	background-color: #419488;
+    width: 233px;
+    height: 40px;
+    border-radius: 62px 62px;
+    border: 2px solid #FFFFFF;
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+@media only screen and (max-width: 897px){
+	.primeiro-p{
+		font-size: 15px;
+	}
+	.nav-1 a{
+		font-size: 13px;
+        
+	}
+	.botao{
+		height: 50px;
+
+	}
+}
+@media only screen and (max-width: 800px){
+	.logo{
+		width: 60%;
+		margin-left: 10%;
+	}
+	.botao{
+		font-size: 12px;
+		height: 30px;
+		width: 40%;
+	}
+}
+@media only screen and (max-width: 550px){
+	.nav-1 {
+		width: 65%;
+	}
+	.botao-footer{
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 531px){
+	.nav-1 {
+		width: 65%;
+	}
+}
+
+
+@media only screen and (max-width: 500px){
+	.header{
+		width: 100%;
+		height: 80px;
+	}
+	
+	.logo{
+		margin-left: 5%;
+		width: 40%;
+		
+	}
+	
+	.nav-1{
+		margin-right: 10px;
+		width: 40%;
+	}
+	
+	.nav-1 a{
+		font-size: 10px;
+		margin-left: 7px;
+		font-weight: 500;
+		
+	}
+	h1{
+		font-size: 10px;
+		font-weight: 300;
+		margin-left: 12%;
+		margin-top: 6%;
+	}
+	.primeiro-p{
+		font-size: 15px;
+		margin-left: 12%;
+		margin-top: 1.5;
+	}
+	.cards{
+		margin-left: 15%;
+	}
+	
+	h2{
+		font-weight: 500;
+		font-size: 25px;
+	}
+	.div-card p{
+		font-size: 8px;
+	}
+	.botao{
+		font-size: 8px;
+		margin: 30px;
+		width: 40%;
+		height: 20px;
+
+		padding: 0 10px 0 10px;
+	}
+	.footer{
+		height: 100%;
+		object-fit: cover;
+	
+
+	}
+	
+	.logo-footer{
+		width: 20%;
+		height: 40px;
+		margin-left: 2%;
+	}
+	.nav-2 a{
+		font-size: 10px;
+        
+	}
+	.botao-footer{
+		width: 115px;
+        height: 22px;
+	}
+
+
+}
